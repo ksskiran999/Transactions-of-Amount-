@@ -14,7 +14,7 @@ private String accNo;
 @Column(name="BALANCE")
 
 	private int balance;
-
+private String statement;
 public void setAccNo(String accNo) {
 	this.accNo = accNo;
 }
